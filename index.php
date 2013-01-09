@@ -22,6 +22,7 @@ JQUERY_VER=<?=$_SERVER['JQUERY_VER']?>
 JQUERY_VERSION=<?=$_SERVER['JQUERY_VERSION']?>
 <br />
 JQV=<?=$_SERVER['JQV']?>
+<br /><br /><br />
 
 <br /><br /><br />
 
@@ -46,5 +47,10 @@ last_name: <?=$row['last_name']?>
 
 session variable count = <?=$_SESSION['count']?>
 
+<br /><br /><br />
+
+utf8_encode(): <?=utf8_encode('encode worked!')?>
+
+<br /><br /><br />
 <br /><br /><br />
 </body></html>
